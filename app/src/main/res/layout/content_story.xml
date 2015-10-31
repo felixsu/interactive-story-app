@@ -35,9 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/choiceButton2"
         android:layout_centerHorizontal="true"
-        android:background="@android:color/white"
-        android:text="CONTINUE HOME TO EARTH"
-        android:textColor="#FF3A8AEC"/>
+        style="@style/defaultButton"
+        android:text="continue home to earth"
+        />
 
     <Button
         android:id="@+id/choiceButton2"
@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@android:color/white"
-        android:text="STOP AND INVESTIGATE"
-        android:textColor="#FF3A8AEC"/>
+        style="@style/defaultButton"
+        android:text="stop and investigate"
+        />
 
 </RelativeLayout>

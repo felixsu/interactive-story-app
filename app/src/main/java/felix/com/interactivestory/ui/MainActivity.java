@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import felix.com.interactivestory.R;
 
@@ -28,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String name = mNameField.getText().toString();
-                startStory(name);
+                if (!name.isEmpty()) {
+                    startStory(name);
+                } else {
+                    Toast.makeText(MainActivity.this, "enter your name", Toast.LENGTH_LONG).show();
+                }
             }
         };
         mStartButton.setOnClickListener(listener);

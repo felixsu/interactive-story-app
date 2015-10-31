@@ -26,9 +26,8 @@
         android:id="@+id/startButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Your Adventure"
+        android:text="start Your Adventure"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:textColor="#FF3A8AEC"
-        android:background="@android:color/white"/>
+        style="@style/defaultButton"/>
 </RelativeLayout>
