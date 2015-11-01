@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/startButton"
         android:hint="Enter your name to begin"
-        android:maxLength="30"/>
+        android:maxLength="30"
+        android:singleLine="true"/>
     <Button
         android:id="@+id/startButton"
         android:layout_width="match_parent"
